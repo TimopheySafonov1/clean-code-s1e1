@@ -44,7 +44,7 @@ li, h3 {
 .task-row__task{
     outline:none;
 }
-button {
+.task-row__button {
     background: none;
     border: 0px;
     color: #888;
