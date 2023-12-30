@@ -157,3 +157,8 @@ ul#completed-tasks label {
     display:none;
 }
 
+.main-element__completed-tasks{
+    margin: 0px;
+    padding: 0px;
+}
+
