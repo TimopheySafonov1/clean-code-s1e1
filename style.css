@@ -145,7 +145,7 @@ ul#completed-tasks label {
 
 /* Edit Task */
 .task-row__task-input {
-    display:none;
+    display: none;
 }
 
 .task-row__task-input.task-row__task-input--add {
