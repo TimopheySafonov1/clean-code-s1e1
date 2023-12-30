@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-.page_matrix { text-align: center;
+    .page_matrix { 
+        text-align: center;
 }
 }
 .page__main-element.page__main-element--centered {
