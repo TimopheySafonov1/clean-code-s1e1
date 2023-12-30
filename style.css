@@ -149,7 +149,7 @@ ul#completed-tasks label {
 }
 
 .task-row__task-input.task-row__task-input--add {
-    display:inline-block;
+    display: inline-block;
     width: 224px;
 }
 
