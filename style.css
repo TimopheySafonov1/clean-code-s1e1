@@ -18,7 +18,7 @@
 }
 
 @media (max-width:768px) {
-    .page_matrix { 
+    .page_matrix {
         text-align: center;
 }
 }
@@ -32,7 +32,7 @@
 .task-row__task-input.task-row__task-input--add{
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row.task-row--wrapper {
     display: flex;
