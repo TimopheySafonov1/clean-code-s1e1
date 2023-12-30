@@ -27,7 +27,8 @@
     margin: 0 auto 0;
 }
 .task-row__task-label,
-.task-row__task {
+.task-row__task,
+.task-row__task-input.task-row__task-input--add{
     width: 56%;
     display: inline-block;
     flex-grow: 1
@@ -151,9 +152,6 @@ ul#completed-tasks label {
     width:224px
 }
 
-.task-row__task-input{
-    display: none;
-}
 
 .task-row__task-label.task-row__task-label--add {
     display:none;
