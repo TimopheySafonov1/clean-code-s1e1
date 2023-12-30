@@ -126,9 +126,7 @@ input#new-task {
     font-size: 18px;
     width: 226px;
 }
-/* .task-row >    input[type="text"] {
-    width: 226px
-} */
+
 .task-row__button.task-row__button--remove {
     height: 2em;
     width: 2em;
@@ -147,7 +145,7 @@ ul#completed-tasks label {
 
 /* Edit Task */
 .task-row__task-input {
-    display:none
+    display:none;
 }
 
 .task-row__task-input.task-row__task-input--add {
