@@ -5,6 +5,8 @@
 //Solution: Add interactivity so the user can manage daily tasks.
 //Break things down into smaller steps and take each step at a time.
 
+const deleteItem = document.querySelectorAll(".task-row__button.task-row__button--remove");
+console.log(`height of delete ${deleteItem.length}`);
 
 // Event handling, user interaction is what starts the code execution.
 
