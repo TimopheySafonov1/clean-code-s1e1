@@ -34,6 +34,7 @@
 }
 .task-row.task-row--wrapper {
     display: flex;
+    padding: 0px;
 }
 .main-element__incomplete-tasks {
     margin:0;
@@ -122,9 +123,9 @@ input#new-task {
     font-size: 18px;
     width: 226px;
 }
-.task-row >    input[type="text"] {
+/* .task-row >    input[type="text"] {
     width: 226px
-}
+} */
 .task-row__button.task-row__button--remove {
     height: 2em;
     transform: rotateZ(45deg);
@@ -145,11 +146,16 @@ ul#completed-tasks label {
     display:none
 }
 
-ul .task-row.editMode input[type=text] {
+.task-row__task-input.task-row__task-input--add {
     display:inline-block;
     width:224px
 }
 
-ul .task-row.editMode label {
+.task-row__task-input{
+    display: none;
+}
+
+.task-row__task-label.task-row__task-label--add {
     display:none;
 }
+
