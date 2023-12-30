@@ -26,7 +26,8 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.task-row__task-label {
+.task-row__task-label,
+.task-row__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
@@ -41,7 +42,7 @@
 .task-row, .main-element__top-section {
     list-style:none;
 }
-.task-row__task{
+input,button{
     outline:none;
 }
 .task-row__button {
@@ -67,7 +68,7 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.task-row__task-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -134,7 +135,7 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul .task-row input[type=text] {
+.task-row__task-input {
     display:none
 }
 
