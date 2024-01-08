@@ -63,9 +63,7 @@ input,button{
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-button:hover {
-    color: #3a3A3a;
-}
+
 /* Heading */
 .main-element_heading,
 .main-element__task-label {
