@@ -152,11 +152,10 @@ input,button{
 
 
 .task-row__task-label.task-row__task-label--add {
-    display:none;
+    display: none;
 }
 
 .main-element__completed-tasks{
     margin: 0px;
     padding: 0px;
 }
-
