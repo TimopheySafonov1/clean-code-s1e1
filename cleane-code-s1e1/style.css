@@ -42,7 +42,8 @@
     margin: 0;
     padding: 0px;
 }
-.task-row, .main-element__top-section,
+.task-row,
+.main-element__top-section,
 .main-element_heading {
     list-style: none;
 }
@@ -51,10 +52,10 @@
     margin-top: 16px;
     margin-bottom: 16px;
 }
-input,button{
+input,button {
     outline: none;
 }
-.task-row__button{
+.task-row__button {
     background: none;
     border: 0px;
     color: #888;
@@ -155,7 +156,7 @@ input,button{
     display: none;
 }
 
-.main-element__completed-tasks{
+.main-element__completed-tasks {
     margin: 0px;
     padding: 0px;
 }
