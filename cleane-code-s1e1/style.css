@@ -131,7 +131,7 @@ input#new-task {
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.task-row__button.task-row__button--remove:hover {
     transform: rotateZ(0);
 }
 
